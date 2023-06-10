@@ -11,6 +11,32 @@ body{
     background-image:url("../image/tree-small.png");
 }
 
+.backbutton{
+    font-family: logger;
+    font-size: 30px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    background-color: #175424;
+    color:antiquewhite;
+    cursor:pointer;
+    text-decoration: none;
+    
+}
+
+.backlink:link{
+    color:antiquewhite;
+}
+.backlink:visited{
+    color:antiquewhite;
+}
+.backlink:visited{
+    
+    color:antiquewhite
+}
+.backlink:active{
+    color:antiquewhite;
+}
+
 .navbar{
     font-family: frutiger;
     color: antiquewhite;
@@ -154,6 +180,12 @@ body{
     height:600px;
     object-fit:scale-down;
 
+}
+/*
+css for photo album captions*/
+.unh_slide p{
+    font-family: frutiger;
+    text-align: center;
 }
 
 .unh_slide[data-active]{
